@@ -37,7 +37,7 @@ and the headers will also be copied under `dist/include` directory.
 
 ### Nuget Update
 
-This project was originally made for ease of imgui nuget update, as it allows fast creation of binary artifacts for various compiler configuration's.
+This project was originally made for ease of imgui nuget update, as it allows fast creation of binary artifacts for various compiler configurations.
 here is an example on how to build debug and release artifacts for visual studion 2017 and visual studio 2013 in one script:
 ```bash
 git clone --recursive https://github.com/GrabCAD/imgui-cmake
