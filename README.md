@@ -17,7 +17,7 @@ By default it would build ImGui as a static library, but if you would like to bu
 cmake .. -DIMGUI_WITH_IMPL=OFF -DIMGUI_STATIC_LIBRARY=OFF
 ```
 
-Notice that cmake will automatically use the lastest visual stuidio installed on your computer.
+Notice that cmake will automatically use the lastest visual studio installed on your computer.
 If you would like to change the visual studio version used for compilation use one of the [following options](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html).
 here is a simple example on how to compile with visual studio 2017 for 64bit version:
 ```bash
