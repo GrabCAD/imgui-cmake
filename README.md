@@ -48,7 +48,7 @@ cmake .. -G "Visual Studio 15 2017 Win64"
 cmake --build . --config Release --target install
 cmake --build . --config Debug --target install
 
-cd.. && mkdir build2013
+cd.. && mkdir build2013 && cd build2013
 cmake .. -G "Visual Studio 12 2013 Win64"
 cmake --build . --config Release --target install
 cmake --build . --config Debug --target install
