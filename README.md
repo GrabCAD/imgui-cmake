@@ -42,7 +42,7 @@ here is an example on how to build debug and release artifacts for visual studio
 ```bash
 git clone --recursive https://github.com/GrabCAD/imgui-cmake
 
-cd ImGui-CMake-Installer && mkdir build2017 && cd build2013
+cd ImGui-CMake-Installer && mkdir build2017 && cd build2017
 cmake .. -DIMGUI_WITH_IMPL=OFF -DIMGUI_STATIC_LIBRARY=OFF
 cmake .. -G "Visual Studio 15 2017 Win64"
 cmake --build . --config Release --target install
